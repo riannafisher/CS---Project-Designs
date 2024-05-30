@@ -1,5 +1,9 @@
 p {
-  color: red;
+  color: rebeccapurple;
+}
+body {
+  color: rebeccapurple;
+  background-color: lightpink;
 }
 
 .container {
@@ -17,3 +21,24 @@ p {
   border-radius: 8px;
   color: blueviolet;
 }
+
+.testContainer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
